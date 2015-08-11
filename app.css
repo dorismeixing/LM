@@ -116,19 +116,27 @@ div {
 }*/
 
 .WhatWeDo{
+  height: 100px;
   width: 50%;
   background: silver;
   float: left;
 }
 
 .advantages{
+  height: 100px;
   width: 50%;
   background: gray;
   float: left;
-/*.advantages ul{
-  font-size: 15px;
-}*/
+}
 
-.JoinUs{
+.join{
+ display: block;
+}
 
+.join_us{
+  background-image: url(file:///Users/fangguangbin/Dropbox/LM/images/join_us.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 208px;
+  background: silver;
 }
