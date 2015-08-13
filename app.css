@@ -11,7 +11,6 @@ div {
 }
 
 .container {
-  /*border-bottom: 1px solid #000000;*/
   background: gray;
   margin-bottom: 0;
   padding: 0;
@@ -71,14 +70,18 @@ div {
   */
   background: gray;
   opacity:.60;
-  /*filter: alpha(opacity=70);*/
-  /*-moz-opacity: 0.7;*/
+  /*filter: alpha(opacity=70);
+  -moz-opacity: 0.7;*/
 }
 
 .join_us{
   background-color: white;
   height: 100%;
   padding: 0 100px 0 100px;
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+  font-size: 10px;
 }
 
 .join_us > ul{
@@ -92,16 +95,14 @@ div {
 .footer{
   width:100%;
   font-size: 0;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  font-size: 10px;
+  height: 100%
 }
 
-.introduction{
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-   vertical-align: top;
-   font-size: 10px;
-   width: 100%;
- }
  .WhatWeDo{
    height: 100px;
    width: 50%;
@@ -113,10 +114,5 @@ div {
    height: 100px;
    width: 50%;
    background: gray;
-   float: left;
+   float: right;
  }
-
-/*.introduction li{
-  display: inline-block;
-  list-style: none;
-}*/
