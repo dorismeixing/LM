@@ -6,54 +6,37 @@ body {
 
 div {
   display: block;
+  padding-top: 0;
+  padding-bottom: 0:
 }
 
-.navigation-container {
-  border-bottom: 1px solid #000000;
+.container {
+  /*border-bottom: 1px solid #000000;*/
   background: gray;
   margin-bottom: 0;
+  padding: 0;
 }
 
-.nav {
-  padding: 0;
+.container>ul{
   margin: 0;
 }
 
-.nav li {
+.container>ul>li{
   display: inline-block;
   list-style: none;
+  margin: 0;
 }
 
-.nav > li > a {
-  display: block;
-  color: brown;
-  padding: 10px;
-  text-decoration: none;
+.container>ul>li>a{
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.nav > li > .active,
-.nav > li > a:hover {
-  color: #bbbbbb;
   text-decoration: none;
-  display: block;
-}
-
-.nav > li > a:hover {
-  color: #ffffff;
+  color: #bbbbbb;
 }
 
 .search-container {
-  padding: 20px 10px;
-  /*  The above is shorthand for:
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-  */
-  border-bottom: 1px solid #e5e5e5;
-  background: #f4f4f4;
+   padding: 20px 10px;
+   background: #f4f4f4;
 }
 
 .module{
@@ -62,8 +45,6 @@ div {
   width: 100%;
   height: 700px;
   margin: 0 0 0 0;
-  position: relative;
-  float: left;
 }
 
 .mid h1{
@@ -81,18 +62,31 @@ div {
 }
 
 .searchbar{
-  padding: 20px 15px;
+  padding: 20px 20px;
   /*  The above is shorthand for:
     padding-top: 20px;
     padding-right: 10px;
     padding-bottom: 20px;
     padding-left: 10px;
   */
-  /*border-bottom: 2px solid #e5e5e5;*/
   background: gray;
-  -moz-opacity: 0.7;
   opacity:.60;
-  filter: alpha(opacity=70);
+  /*filter: alpha(opacity=70);*/
+  /*-moz-opacity: 0.7;*/
+}
+
+.join_us{
+  background-color: white;
+  height: 100%;
+  padding: 0 100px 0 100px;
+}
+
+.join_us > ul{
+  padding-bottom: 0;
+}
+
+.join_us>ul>li{
+  padding: 0 30px;
 }
 
 .footer{
@@ -107,36 +101,22 @@ div {
    vertical-align: top;
    font-size: 10px;
    width: 100%;
-   padding-top: 50px;
+ }
+ .WhatWeDo{
+   height: 100px;
+   width: 50%;
+   background: silver;
+   float: left;
+ }
+
+ .advantages{
+   height: 100px;
+   width: 50%;
+   background: gray;
+   float: left;
  }
 
 /*.introduction li{
   display: inline-block;
   list-style: none;
 }*/
-
-.WhatWeDo{
-  height: 100px;
-  width: 50%;
-  background: silver;
-  float: left;
-}
-
-.advantages{
-  height: 100px;
-  width: 50%;
-  background: gray;
-  float: left;
-}
-
-.join{
- display: block;
-}
-
-.join_us{
-  background-image: url(file:///Users/fangguangbin/Dropbox/LM/images/join_us.jpg);
-  background-position: right bottom;
-  background-repeat: no-repeat;
-  height: 208px;
-  background: silver;
-}
