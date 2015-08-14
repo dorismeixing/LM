@@ -8,7 +8,6 @@ get "/tasks" do
 end
 
 
-
 get "/hello" do
   "<p>Hello, world! The current time is #{Time.now}.</p>"
 end
